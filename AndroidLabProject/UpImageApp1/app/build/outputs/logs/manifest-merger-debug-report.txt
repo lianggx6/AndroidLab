@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:1-30:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c773d3d9f43d12c190d87a5e28e68d65\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\c2a5de5c0c0aec5e5d39b74fac1ecc61\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\9b43f9abb0b888c53bed365f6aeee4c3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3af91672655021bbab54138920166446\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\216c6cb654a9a9d011f4b0ac32bf0270\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:2:5-29
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c773d3d9f43d12c190d87a5e28e68d65\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c773d3d9f43d12c190d87a5e28e68d65\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\c2a5de5c0c0aec5e5d39b74fac1ecc61\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\c2a5de5c0c0aec5e5d39b74fac1ecc61\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\9b43f9abb0b888c53bed365f6aeee4c3\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\9b43f9abb0b888c53bed365f6aeee4c3\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3af91672655021bbab54138920166446\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3af91672655021bbab54138920166446\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\216c6cb654a9a9d011f4b0ac32bf0270\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\216c6cb654a9a9d011f4b0ac32bf0270\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:6:5-8:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:7:9-34
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:12:5-28:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c773d3d9f43d12c190d87a5e28e68d65\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c773d3d9f43d12c190d87a5e28e68d65\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\c2a5de5c0c0aec5e5d39b74fac1ecc61\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\c2a5de5c0c0aec5e5d39b74fac1ecc61\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\9b43f9abb0b888c53bed365f6aeee4c3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\9b43f9abb0b888c53bed365f6aeee4c3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3af91672655021bbab54138920166446\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3af91672655021bbab54138920166446\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\216c6cb654a9a9d011f4b0ac32bf0270\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\216c6cb654a9a9d011f4b0ac32bf0270\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.hexiaochun.MainActivity
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:16:9-27:20
+	android:label
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:17:13-41
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:19:13-21:38
+	android:value
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:21:17-35
+	android:name
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:20:17-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from D:\Android\Project\AndroidLab\UpImageApp1\app\src\main\AndroidManifest.xml:25:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c773d3d9f43d12c190d87a5e28e68d65\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c773d3d9f43d12c190d87a5e28e68d65\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\c2a5de5c0c0aec5e5d39b74fac1ecc61\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\c2a5de5c0c0aec5e5d39b74fac1ecc61\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\9b43f9abb0b888c53bed365f6aeee4c3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\9b43f9abb0b888c53bed365f6aeee4c3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3af91672655021bbab54138920166446\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3af91672655021bbab54138920166446\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\216c6cb654a9a9d011f4b0ac32bf0270\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\216c6cb654a9a9d011f4b0ac32bf0270\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\员力\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\2cfb342a51ab1b82c6a0af24c46afceb\AndroidManifest.xml:27:13-51

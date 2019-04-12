@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_background_image"
+    tools:context="com.example.sanguo.StartActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:background="@color/colorBrown"
+            app:srcCompat="@drawable/search_image" />
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAlphaBrown"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/list_image" />
+
+        <ImageView
+            android:id="@+id/setting_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAlphaBrown"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/setting_image" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="586dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="92dp"
+            android:background="@drawable/search_input"
+            android:ems="15"
+            android:hint="@string/search_hint"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ListView
+            android:id="@+id/random_list"
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/search_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:divider="@color/colorLess"
+            android:dividerHeight="10dp" />
+
+        <ImageView
+            android:id="@+id/change_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/random_list"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="-100dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/change_image" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

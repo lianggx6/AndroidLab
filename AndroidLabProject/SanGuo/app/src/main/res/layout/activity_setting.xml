@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_background_image"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#3fffffff">
+
+        <ImageView
+            android:id="@+id/guanyuwomen"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/shezhiguanyuwomen" />
+
+        <ImageView
+            android:id="@+id/yinyuekaiguan"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/guanyuwomen"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/yinyuekaiguan" />
+
+        <ImageButton
+            android:id="@+id/musicButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/musicon" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/yinyuekaiguan"
+            android:src="@drawable/renwucidian" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/zhizuorenyuan" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/renyuan1" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/imageView3"
+            android:src="@drawable/renyuan2" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/ruanjianbanben" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:orientation="horizontal"
+
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/search_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAlphaBrown"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/search_image" />
+
+            <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAlphaBrown"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/list_image" />
+
+            <ImageView
+                android:id="@+id/setting_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorBrown"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/setting_image" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

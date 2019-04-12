@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@color/colorLess"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/item_back"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/weiback"
+        app:riv_corner_radius="20dp"
+        android:contentDescription="@string/app_name" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/item_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/caocao"
+        app:riv_corner_radius="50dp" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/item_image"
+        android:text="曹阿"
+        android:textColor="@color/colorWhite"
+        android:textSize="35sp" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/item_nation"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/wei"
+        app:riv_corner_radius="35dp" />
+
+    <TextView
+    android:id="@+id/item_year"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_toStartOf="@+id/item_nation"
+    android:text="155年-220年"
+    android:textColor="@color/colorWhite"
+    android:textSize="15sp" />
+
+</RelativeLayout>

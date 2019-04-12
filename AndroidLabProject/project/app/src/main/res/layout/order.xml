@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F0F0F0">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/order_title">
+        <TextView
+            android:id="@+id/order_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center"
+            android:textColor="#ffffff"
+            android:text="我买到的"
+            android:textSize="20dp"/>
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/order_back"
+            android:background="@drawable/back"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/order_listview"
+        android:background="#f0f0f0">
+    </ListView>
+</android.support.constraint.ConstraintLayout>

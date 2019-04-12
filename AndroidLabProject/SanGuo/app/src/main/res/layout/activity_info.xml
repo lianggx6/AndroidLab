@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        >
+
+        <ImageView
+            android:id="@+id/info_human_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/caocao" />
+
+        <ImageView
+            android:id="@+id/info_back_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/info_back_button" />
+
+        <ImageView
+            android:id="@+id/xiugai"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/info_back_button"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/xiugai" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/info_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-420dp"
+        android:background="@drawable/infoweiback"
+        app:layout_constraintTop_toTopOf="@id/R1">
+
+
+        <RelativeLayout
+            android:id="@+id/info_middle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/weiback">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/info_nation_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/wei"
+                app:riv_corner_radius="50dp" />
+
+            <TextView
+                android:id="@+id/info_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="黄月英"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+            <ImageButton
+                android:id="@+id/info_collect"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/shouchang" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shengzu_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/info_middle"
+            android:background="@drawable/shengzu" />
+
+        <TextView
+            android:id="@+id/info_sheengzu"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="111年-112年"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_below="@+id/info_middle"
+            android:layout_toEndOf="@+id/shengzu_image" />
+
+        <TextView
+            android:id="@+id/jiguan_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/jiguan"
+            android:layout_below="@+id/info_middle"
+            android:layout_toEndOf="@+id/info_sheengzu" />
+
+        <TextView
+            android:id="@+id/info_jiguan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/jiguan_image"
+            android:layout_toEndOf="@+id/jiguan_image"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="沔南"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/shengping_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/jiguan_image"
+            android:background="@drawable/shengping" />
+
+        <TextView
+            android:id="@+id/info_shengping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/shengping_image"
+            android:layout_toEndOf="@+id/shengping_image"
+            android:padding="10dp"
+
+            android:text="为沔阳名士黄承彦之女，黄承彦以黄月英有才干向诸葛亮推荐，请求配婚，诸葛亮答应后遂与黄月英结为夫妻，相传黄月英黄头发黑皮肤，但知识广博。但也有一说指黄月英本人极美，因此遭到乡里其他年轻女性的嫉妒而诋毁她的容貌。 诸葛亮发明木牛流马，相传就是从黄月英的传授的技巧上发展出来。荆州一带的特产，相传部分也由黄月英所制造或发明。现今襄樊一带，还可以听到很多关于诸葛亮与黄月英的动人传说。黄月英是民间传说中的名字，由于使用广泛，因此本辞典采用其名。"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

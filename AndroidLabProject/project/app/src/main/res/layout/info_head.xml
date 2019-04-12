@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/shoes"
+        app:riv_corner_radius="30dp"
+        android:id="@+id/inform_touxiang" />
+
+    <TextView
+        android:id="@+id/inform_nicheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/inform_touxiang"
+        android:layout_marginStart="10dp"
+        android:text="眉清目秀" />
+
+    <TextView
+        android:id="@+id/inform_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_alignBottom="@+id/inform_touxiang"
+        android:layout_toEndOf="@+id/inform_touxiang"
+        android:layout_marginStart="15dp"
+        android:text="6小时前" />
+
+    <TextView
+        android:id="@+id/inform_rmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/view"
+        android:text="RMB: "
+        android:textColor="#ff0000"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/inform_touxiang"
+        android:background="#dedede"
+        android:id="@+id/view" />
+
+    <TextView
+        android:id="@+id/inform_miaoshu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inform_rmb"
+        android:text="之前双十一买的，用不上，便宜些出，有意私聊，价格可刀，多买多增,快来买，快来买，快来买快来买快来买吧多买多增,快来买，快来买，快来买快来买快来买吧多买多增,快来买，快来买，快来买快来买快来买吧"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>
